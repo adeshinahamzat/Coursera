@@ -9,11 +9,15 @@ h1 {
     text-align: center;
     text-transform: capitalize;
     font-size: 1.75em;
+    margin: 20px;
 }
 
+.container {
+    margin: 40px 20px;
+}
 
 .container section {
-    width: 30%;
+    width: calc(33.33% - 20px);
     background-color: #888;
     padding: 20px;
     border: 3px solid black;
@@ -28,12 +32,20 @@ section > h3 {
     border-bottom: 3px solid black;
     padding: 0 20px;
     display: inline-block;
-    background-color: maroon;
+    background-color: #c59da3;
     position: absolute;
     top: 0;
     right: 0;
+    text-transform: capitalize;
 }
 
+h3.beef {
+    background-color: #800000;
+}
+
+h3.sushi {
+    background-color: #dddd95;
+}
 
 section > p {
     margin-top: 10px;
