@@ -49,4 +49,33 @@ h3.sushi {
 
 section > p {
     margin-top: 10px;
+    font-size: 1.2em;
+}
+
+
+/* ----------Responsive Solution---------- */
+
+@media (max-width: 991px) {
+
+    section.one, 
+    section.two{
+        width: calc(50% - 20px);
+        min-height: 200px;
+    }
+
+    section.three {
+        width: calc(100% - 20px);
+        min-height: 200px;
+    
+    }
+}
+
+@media (max-width: 767px) {
+
+    section.one,
+    section.two,
+    section.three {
+            width: calc(100% - 20px);
+            min-height: 200px;
+    }
 }
