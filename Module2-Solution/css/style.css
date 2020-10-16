@@ -20,36 +20,38 @@ h1 {
     width: calc(33.33% - 20px);
     background-color: #888;
     padding: 20px;
-    border: 3px solid black;
+    border: 1px solid black;
     position: relative;
     float: left;
     margin: 10px;
 
 }
 
-section > h3 {
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
-    padding: 0 20px;
-    display: inline-block;
-    background-color: #c59da3;
+section > .section-title {
     position: absolute;
     top: 0;
     right: 0;
+    width: 120px;
+    background-color: #c59da3;
+    border: 1px solid black;
+}
+
+section > .section-title > h3 {
+    text-align: center;
     text-transform: capitalize;
+    font-size: 1.25em;
 }
 
-h3.beef {
-    background-color: #800000;
+section > .two {
+    background-color: #a14b4b;
 }
 
-h3.sushi {
+section > .three {
     background-color: #dddd95;
 }
 
 section > p {
     margin-top: 10px;
-    font-size: 1.2em;
 }
 
 
